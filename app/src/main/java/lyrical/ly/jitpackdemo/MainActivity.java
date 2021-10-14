@@ -1,11 +1,11 @@
 package lyrical.ly.jitpackdemo;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toolbar;
 
 import lyrical.ly.jitpacktest.ToolBarAnimation;
 
@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        final Toolbar toolbar = findViewById(R.id.tool_bar);
+        final Toolbar toolbar =  findViewById(R.id.tool_bar);
 
         Button buttonUp = findViewById(R.id.btn_up);
         buttonUp.setOnClickListener(new View.OnClickListener() {

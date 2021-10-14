@@ -6,7 +6,8 @@ import android.content.res.TypedArray;
 import android.os.Build;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.Animation;
-import android.widget.Toolbar;
+
+import androidx.appcompat.widget.Toolbar;
 
 public class ToolBarAnimation {
 
